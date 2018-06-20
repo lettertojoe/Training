@@ -1,0 +1,32 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Radiobutton & Checkbutton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Do you prefer Cat or Dog</h1>
+    <form>
+<!--If same "name" is not added to the radio and checkbox, HTML does not know they are same, hence you can oick the two at the same time instead of one at a time -->
+<!-- the value attribute provides the server with what was selected, if it is not addded, samegroup is set to ON -->
+        <label for="Ilovecat">Cat:</label>
+        <input id="Ilovecat" type="radio" name="samegroup" value="CAT"> 
+        <label for="Ilovedog">Dog:</label>
+        <input id="Ilovedog" type="radio" name="samegroup" value="Dogs">
+<!-- In select tag, name shows the group they are -->
+<!-- In option, value is used to indicate to the server the name of what has been selected -->
+        <select name="colors">
+            <option value="Blood">Red</option>
+            <option value="NSW">Blue</option>
+            <option value="leaf">Green</option>
+        </select>
+        <button>Go</button>
+        <input type="textarea">
+    </form>
+
+</body>
+</html>
