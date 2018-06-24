@@ -1,5 +1,42 @@
+table{
+width:450px;
+height: 450px;
+margin: auto;
+}
 .oneone{
-border-left: 1px solid black;
+border-right: 1px solid black;
 border-bottom: 1px solid black;
+}
+
+.onetwo{
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+}
+
+.onethree{
+ border-bottom: 1px solid black;
+}
+
+.twoone{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.twotwo{
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+
+}
+
+.twothree{
+    border-bottom: 1px solid black;
+}
+
+.threeone{
+    border-right: 1px solid black;
+}
+
+.threetwo{
+    border-right: 1px solid black;
 }
 
